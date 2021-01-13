@@ -4,4 +4,4 @@ resources:
 - deployment.yaml
 namespace: default
 patchesStrategicMerge:
-  - deployment-patch-1.yaml
+  - patch.yaml
