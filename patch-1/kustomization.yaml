@@ -3,8 +3,6 @@ kind: Kustomization
 resources:
 - deployment.yaml
 namespace: default
-commonLabels:
-  app: nginx-new
 images:
   - name: nginx
     newTag: "1.19"
