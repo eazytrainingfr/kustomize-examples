@@ -4,7 +4,7 @@ resources:
 - deployment.yaml
 namespace: default
 patches:
-- path: deployment-patch-2.json
+- path: patch.json
   target:
     group: apps
     version: v1
